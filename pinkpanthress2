@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>La chanteuse la moins connue du monde</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Londrina+Sketch&family=Rock+Salt&family=Rubik+Bubbles&family=Rubik+Puddles&family=Schoolbell&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Emilys+Candy&family=Knewave&family=Mogra&family=Rock+Salt&family=Sarina&display=swap" rel="stylesheet">
+
+<body>
+  <h1 class="grand">Pinkpanthress <span><img src="./images/stars.png" height="50"></span></h1>
+  <h1 class="petit">le retour aux années 2000</h1>
+  <br>
+  <h2>Une petite introduction</h2>
+  <p> Pinkpanthress s'introduit dans la musicalité progressivement. Initialement, elle aidait un ami avec ses propres chansons en écrivant ses instrumentaux. Elle n'était alors qu'au lycée et s'aidait de l'application GarageBand pour produire ses sons. Originaire de Bath en Angleterre, Victoria Beverly Walker commence sa carrière solo en publiant des morceaux sur Soundcloud. Elle n'eut pas énormément de succès au début. Par hasard, une des ses vidéos reçut enfin de l'attention sur Tiktok. En fin de compte, Pinkpanthress fait son apparition dans le monde de la musique. </p>
+  <img class="centre" height= 200 alt= "pinkpanthressphoto" 
+src="https://i.guim.co.uk/img/media/2bb7b6316c6b0f2f3fa9f6ea8ec1b841a28a8839/290_1284_3358_2015/master/3358.jpg?width=1020&dpr=1&s=none"/>
+ <p>Cette star propose aux jeunes un nouveau style musical assez particulier. Beaucoup d'artistes lui servent d'influences comme My Chemical Romance, Hayley Williams (la chanteuse de Paramore), Frank Ocean, Imogen Heap et tant d'autres. Elle mélange la lo-fi, la drum and bass, la pop alternative et le 2-step garage dans de courtes musiques comprenant des échantillons de musique de années 90' et 2000. Ainsi elle se démarque des autres et créée une série de hits.</p>
+ <h2>Top 3 de l'artiste</h2>
+  <table border="1">
+    <tr>
+      <th>boy's a liar</th>
+      <td>891m de stream</td>
+    </tr>
+    <tr>
+     <th>pain</th>
+     <td>702m de stream</td>
+    </tr>
+    <tr>
+     <th>break it off - bonus</th>
+     <td>308m de stream</td>
+    </tr>
+  </table>
+ <br>
+  <p>Sa chanson Break it Off se fait virale sur Tiktok alors qu'elle est encore à l'université. C'est d'ailleurs grâce à ce réseau social que plusieurs de ses sons atteignent un nombre extraordinaire d'adolescents. Sur la même lancée, sa première mixtape To Hell With It avec le morceau Pain se classent 40ième au Royaume-Uni en 2021. Sa place dans la musique bien établie, elle collabore avec plusieurs artistes différents comme Lil Uzi Vert, Trippie Redd ou Beabadoobee. En 2023, Boy's a Liar en featuring avec Ice Spice atteint le top 3 du Billboard Hot 100 des Etats-Unis. Elle reçoit même l'opportunité d'ajouter sa chanson Angel dans le nouveau film Barbie de Greta Gerwig. Elle sort son premier album le 10 novembre 2023.  </p>
+ <br>
+ <br>
+ <h2>Un style unique et iconique</h2>
+  <img height= 300 alt= "Pinkpanthress photo" src="https://i.pinimg.com/originals/04/53/7f/04537f3d13aa0a0883104c5eaec8934b.jpg"/>
+  <img height= 300 alt= "Pinkpanthress0 photo" src="./images/pink_machin.jpeg"/>
+  <img height= 300 alt="Pinkpanthress1 style" src="./images/capt1.png"/>
+  <img height= 300 alt="Pinkpanthress2" src="./images/capt2.png"/>
+  <img height= 300 alt="Pinkpanthress3" src="./images/capt3.png"/>
+  <img height= 300 alt="Pinkpanthress4" src="./images/capt4.jpeg"/>
+  <img height= 300 alt="Pinkpanthress5" src="./images/capt5.jpg"/>
+ <p>Pinkpanthress est unique dans son style musical, mais pas que! Elle sort encore du lot avec ses vêtements qui évoquent les années 2000 ou même plus modernes. Elle entretient son image artistique à travers ses habits et accessoires. 
+Son style est composé de:</p>
+  <ul>
+    <li>textures différentes et innovatrices</li>
+    <li>motifs étranges</li>
+    <li>t-shirts ou pulls avec des images</li>
+    <li>sacs uniques</li>
+    <li>etc.</li>
+  </ul>
+ <br>
+ <br/>
+ <h2>Ses liens</h2>
+  <ul style="list-style-type:circle">
+    <li><a href= "https://open.spotify.com/intl-fr/artist/78rUTD7y6Cy67W1RVzYs7t">Spotify</a>
+    <li><a href= "https://www.instagram.com/pinkpantheress/">Instagram</a></li>
+    <li><a href="https://www.tiktok.com/@pinkpantheress?lang=fr">Tiktok</a></li>  
+  </ul>
+  <br>
+  <br/>
+ <h1 class="petit">Vous pourriez aussi aimer</h1>
+  <ul>
+    <li><a href= "https://www.bbc.com/news/articles/c3g0gqnr5zvo">BBC:"Pinkpanthress annule sa tournée pour se concentrer sur sa santé"</a></li>  
+   <li><a href= "https://www.nytimes.com/2023/10/26/arts/music/pinkpantheress-heaven-knows.html">New York Times:"Pinkpanthress et son nouvel album (Heaven Knows)" </a></li> 
+  </ul>
+    
+ <br>
+ <br>
+ <br>
+</body>
+  
+
+</html>
