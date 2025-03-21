@@ -1,0 +1,34 @@
+from math import sqrt #on importe le module permettant de calculer des racines carrées
+
+print("Bonjour et bienvenue dans ce programme de calcul des racines d'une fonction du deuxième degré.")#on affiche un message de bienvenue
+print("Dans l'équation y=ax²+bx+c,")#on précise le contexte et le nom des variables
+
+a=input("Quelle est la valeur de a? ")#on récupère la valeur de a et on la stocke dans la variable a
+b=input("Quelle est la valeur de b? ")#même chose pour b
+c=input("Quelle est la valeur de c? ")#même chose pour c
+
+a=float(a) #on converti en un nombre décimal
+b=float(b) #même chose
+c=float(c) #même chose
+
+#################################
+#continue le code à partir d'ici#
+#################################
+
+delta= b**2-4*a*c
+
+if delta>0: 
+  x1=(-b+sqrt(delta))/(2*a)
+  x2=(-b-sqrt(delta))/(2*a)
+  print("Les racines carrées de cette fonction valent",round(x1,2),"et",round(x2, 2),".")
+
+elif delta==0:
+  x=(-b+sqrt(delta))/(2*a)
+  print("La racine carrée de cette fonction vaut",round(x, 2),".")
+
+elif delta<0:
+  print("Cette fonction n'a pas de racine carrée.")
+
+else:
+  print("J'ai rencontré un problème avec votre réponse...")
+  
