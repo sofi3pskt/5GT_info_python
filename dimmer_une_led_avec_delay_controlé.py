@@ -8,7 +8,7 @@ def dimm_up(duration):
     print("Dimming up...")
     for i in range(100):
         channel.pulse_width_percent(i)
-        pyb.delay(int(duration/100)*1000))#durée totale divisée en 100 étapes *1000 pour convert en millisec
+        pyb.delay(int((duration/100)*1000))#durée totale divisée en 100 étapes *1000 pour convert en millisec
     
 def dimm_down(duration):
     """Pour dimmer la led vers le bas, prend une durée (int)"""
