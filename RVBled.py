@@ -1,0 +1,21 @@
+from pyb import Timer, Pin
+
+pot= pyb.ADC('X19')
+pin_bleu = pyb.Pin( 'X1', pyb.Pin.OUT_PP)
+pin_bleu = pyb.Pin( 'X2', pyb.Pin.OUT_PP)
+pin_bleu = pyb.Pin( 'X3', pyb.Pin.OUT_PP)
+
+timmer = pyb.Timer(5, freq=500) #horloge obligatoire pour programme PWM
+channel1 = timmer.channel(3, Timer.PWM, pin=Pin('X2'), pulse_width_percent=100)
+  
+
+def dimm():
+   val_pot=pot.read()
+   print(val_pot)
+   intensity=(val_pot/4095)*100
+   channel1.pulse_width_percent(intensity)
+   pyb.delay(100)
+  
+  
+while True:
+    dimm()
