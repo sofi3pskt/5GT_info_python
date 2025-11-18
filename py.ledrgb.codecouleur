@@ -1,0 +1,9 @@
+from pyb import Timer, Pin
+
+
+timmer = pyb.Timer(5, freq=500) #horloge obligatoire pour programme PWM
+bleu = timmer.channel( 3, Timer.PWM, pin=Pin('X1'), pulse_width_percent=44) #bleu
+vert = timmer.channel( 4, Timer.PWM, pin=Pin('X2'), pulse_width_percent=16) #vert
+rouge = timmer.channel( 1, Timer.PWM, pin=Pin('X3'), pulse_width_percent=90) #rouge
+
+  
